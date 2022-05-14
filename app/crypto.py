@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 import requests
 
 from app.utils import to_usd
+
 load_dotenv()
 
 ALPHAVANTAGE_API_KEY = os.getenv("ALPHAVANTAGE_API_KEY", default="demo")
