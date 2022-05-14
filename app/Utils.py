@@ -13,5 +13,23 @@ def to_usd(my_price):
     Example of invoking the function.
 
     Invole like this: to_usd(9.9999)
+    
+    Example Return value "$9.99"
     """
-    return('${:,.2f}'.format(p[my_price]))
+    return('${:,.2f}'.format([my_price]))
+
+
+
+
+
+
+
+
+
+
+
+if __name__ == "__main__":
+    
+    price = input("Please choose a price like 4.9999")
+    
+    print(to_usd(float(price)))
