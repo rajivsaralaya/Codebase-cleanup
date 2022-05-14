@@ -56,14 +56,18 @@ python app/groceries.py
 
 
 
+
 Run the stocks report:
 
 '''sh
-python app/stocks.py
+python -m app.crypto
 '''
+
+
 
 Run the crypto report:
 
 '''sh
-python app/crypto.py
+#python app/crypto.py
+python -m app.crypto
 '''
