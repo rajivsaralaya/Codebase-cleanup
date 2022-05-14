@@ -6,8 +6,7 @@
 from app.utils import to_usd
     
     
-    
-    def test_to_usd():
+def test_to_usd():
         # rounding to 2 decimals and have dollar sighn
         assert to_usd(0.45555) == "$0.46"
         
