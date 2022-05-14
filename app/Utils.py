@@ -3,15 +3,25 @@
 
 
 
-def to_usd(my_price):
-    """
-    This is a docstring. It tells us what this function is about.
-    What its responisibilities are.
-    What the params are about.
-    What datatypes the params are.
-    What this function will return.
-    Example of invoking the function.
+from statistics import pvariance
 
-    Invole like this: to_usd(9.9999)
-    """
-    return('${:,.2f}'.format(p[my_price]))
+
+def to_usd(my_price):
+
+
+
+
+#price = input("Please choose a price like 4.9999")
+
+#print(to_usd(float(price)))
+
+if __name__ == "__main__":
+    
+    #nesting code in main coneitional will allow other scripts to import functions from this file
+    #if code is in global scope
+    #of file trying to import
+    #it will throw errors 
+    
+    price = input("Please choose a price like 4.9999")
+    
+    print(to_usd(float(price)))
